@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les parcs naturels régionaux de Suisse occidentale</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<body>
+    <div id="preloader">
+        <div class="preloader-content">
+            <img src="loading/logo.png" alt="Loading GIF" class="preloader-gif">
+            <span class="preloader-text">no two parks are alike...</span>
+        </div>
+    </div>
+
+    <h1>Les parcs naturels régionaux de Suisse occidentale</h1>
+    <div class="container">
+        <div id="map"></div>
+        <div id="sidediv">
+            <div class="sidebar" id="topright">
+                <div class="recherche">
+                    <select>
+                        <option value="">- Veuillez sélectionner un parc -</option>
+                        <option value="1">Parc naturel régional Jura vaudois</option>
+                        <option value="2">Parc naturel régional Gruyère Pays-d'Enhaut</option>
+                        <option value="3">Naturpark Gantrisch</option>
+                        <option value="4">Parc naturel régional Chasseral</option>
+                        <option value="5">Parc naturel du Jorat</option>
+                        <option value="6">Parc naturel régional du Haut-Jura</option>
+                        <option value="7">Naturpark Diemtigtal</option>
+                        <option value="8">Landschaftspark Binntal</option>
+                        <option value="9">Parc du Doubs</option>
+                        <option value="10">Parc naturel régional Vallée du Trient</option>
+                    </select>
+                </div>
+            </div>
+            <div class="sidebar1">
+                <ul id="inforparc"></ul>
+            </div>
+            <div class="copyright">
+                2024 © SADOU Abdelmadjid UNIL
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="ROIS.js"></script>
+    <script src="parcs.js"></script>
+    <script src="script.js"></script>
+
+    <script>
+        const apiKey = 'eafce9179dc5378cf926ff3f7e5f4e7b';
+    </script>
+</body>
+</html>
