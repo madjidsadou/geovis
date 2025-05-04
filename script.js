@@ -270,12 +270,12 @@ dropdown.addEventListener('change', function () {
 
 // Define marker icons
 var markerIcons = {
-  "camp": L.icon({ iconUrl: 'icone/Camping.png', iconSize: [30, 30] }),
-  "hotel": L.icon({ iconUrl: 'icone/Hotel-Restaurant.png', iconSize: [30, 30] }),
-  "parking": L.icon({ iconUrl: 'icone/Parking.png', iconSize: [40, 40] }),
-  "ski": L.icon({ iconUrl: 'icone/Ski.png', iconSize: [30, 30] }),
+  "camp": L.icon({ iconUrl: 'icone/camping.png', iconSize: [30, 30] }),
+  "hotel": L.icon({ iconUrl: 'icone/hotel-restaurant.png', iconSize: [30, 30] }),
+  "parking": L.icon({ iconUrl: 'icone/parking.png', iconSize: [40, 40] }),
+  "ski": L.icon({ iconUrl: 'icone/ski.png', iconSize: [30, 30] }),
   "TP": L.icon({ iconUrl: 'icone/tp.png', iconSize: [30, 30] }),
-  "hike": L.icon({ iconUrl: 'icone/Hike.png', iconSize: [40, 40] })
+  "hike": L.icon({ iconUrl: 'icone/hike.png', iconSize: [40, 40] })
 };
 
 // Function to add markers based on zoom level
